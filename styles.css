@@ -1,0 +1,70 @@
+html {
+    font-size: 62, 5%;
+    background: linear-gradient(#9381FF, #B8BEDD) no-repeat;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: Times New Roman, Arial;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 50rem;
+    margin: auto;
+    min-height: 88.3vh;
+}
+
+#tasks {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 0.4rem 0.6rem rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    border-radius: 0.6rem;
+    min-height: 70vh;
+}
+
+#add {
+    background-color: #B79CED;
+    color: #FFF;
+    padding: 0.3rem 1.3rem;
+    border-radius: 0.3rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem 0.2rem #000;
+}
+
+#add:active {
+    transform: translate(0.1rem, 0.1rem);
+    box-shadow: 0.02rem 0.02rem 0.3rem #000;
+}
+
+#add:hover {
+    cursor: pointer;
+}
+
+#write {
+    border: none;
+    height: 1.5rem;
+    width: 18rem;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+#list {
+    list-style-type: none;
+}
+
+.symbol::before {
+    content: "\2665";
+    margin-right: 0.1rem;
+}
